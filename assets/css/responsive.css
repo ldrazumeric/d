@@ -1,0 +1,252 @@
+/*  veci malo */
+@media (min-width:993px){
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+#glavna{
+    width: 100%;
+}
+#about{
+    width: 100%;
+}
+#education{
+    width: 100%;
+}
+#skills{
+    width: 100%;
+}
+#projects{
+    width: 100%;
+}
+}
+
+
+/*  tablet */
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .container{
+        max-width: 767px;
+    }
+    .nav-link{
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+    }
+        .navbar {
+        width: 100%;
+        margin-left: auto;
+        margin-right:0px;
+        }
+        #ukratko{
+            display: flex;
+            flex-direction: column;
+           
+            justify-content: center;
+            align-items: center;
+        }
+        #ukratko span{
+             margin-bottom: 10px;
+        }
+        #podaci{
+            width: 100%;
+            gap: 200px;
+        }
+        #about{
+           width: 620px;;
+        }
+        #podaci #podaci-text{
+           
+            font-size: 10px;
+        }
+        #podaci #podaci-slika{
+         width: 30%;  
+        }
+        #okvir{
+            padding: 10px;
+        }
+        #skola .education-cards{
+            margin-top:1px ;
+            width: 80%;
+        }
+        #skola .education-cards #prva{
+            height: 66%;
+        }
+         #skola .education-cards #zadnja{
+            height: 66%;
+         }
+          #skola .education-cards {
+             margin-top: 5px;
+          }
+       #skola{
+            width: 100%;
+             display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 80px;
+        }
+       #skola .education-cards img{
+        width: 70%;
+       }
+        #skills #karte {
+        width: 100%; 
+        display: grid;
+        grid-template-columns: repeat(2,0.5fr);
+        max-width: 667px;
+        gap: 10px;
+       }
+     #karte .vestina-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+    #karte .vestina-card .css{
+        margin-left: 5px;
+    }
+    #karte .vestina-card .bt{
+        margin: 0px;
+    }
+    #projects #oblik {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    max-width: 667px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+}
+/* telefon */
+@media (max-width: 576px){
+     .container{
+        max-width: 767px;
+    }
+    .nav-link{
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+    }
+        .navbar {
+        width: 100%;
+        margin-left: auto;
+        margin-right:0px;
+        }
+        #ukratko{
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        #ukratko span{
+             margin-bottom: 10px;
+        }
+        #podaci{
+            width: 100%;
+            padding: 20px;
+           display: flex;
+        flex-direction: column; 
+        gap: 15px;
+        }
+        #about{
+           width: 620px;;
+        }
+        #podaci #podaci-text{
+            
+            font-size: 10px;
+        }
+        #podaci #podaci-slika{
+         width: 30%;
+         margin-bottom: 30px;  
+         display: flex;
+         justify-content: center;
+        }
+        #okvir{
+            padding: 10px;
+        }
+        #skola .education-cards{
+            margin-top:1px ;
+            width: 80%;
+        }
+        #skola .education-cards #prva{
+            height: 66%;
+        }
+         #skola .education-cards #zadnja{
+            height: 66%;
+         }
+          #skola .education-cards {
+             margin-top: 5px;
+          }
+       #skola{
+            width: 100%;
+             display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 80px;
+        }
+       #skola .education-cards img{
+        width: 70%;
+       }
+        #skills #karte {
+        width: 100%; 
+        display: grid;
+        grid-template-columns: repeat(1,0.5fr);
+        
+        gap: 10px;
+       }
+       #skills{
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: center; 
+        align-items: center;
+        gap: 25px;              
+        width: 100%;
+        padding: 0 20px;
+       }
+       #skills #karte{
+        
+        text-align: center;     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+     #karte .vestina-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+        
+}
+#skills div { 
+        display: flex;
+        flex-direction: column;  
+        align-items: center;      
+        text-align: center;       
+        width: 100%;
+        margin-right: 30px;
+        }
+    #karte .vestina-card .css{
+        margin-left: 5px;
+    }
+    #karte .vestina-card .bt{
+        margin: 0px;
+    }
+    #projects #oblik {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;   
+        gap: 15px;                      
+        width: 100%;
+    }
+    #projects #oblik .card {
+        width: 100%;            
+        max-width: 340px;   
+        margin-left: auto;     
+        margin-right: 120px;
+    }
+    
+}
